@@ -16,9 +16,9 @@ items:
   type: Class
   source:
     remote:
-      path: docker/MyApi/Data/MyDbContext.cs
+      path: Data/MyDbContext.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: MyDbContext
     path: Data/MyDbContext.cs
     startLine: 5
@@ -107,9 +107,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: docker/MyApi/Data/MyDbContext.cs
+      path: Data/MyDbContext.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: .ctor
     path: Data/MyDbContext.cs
     startLine: 7
@@ -139,9 +139,9 @@ items:
   type: Property
   source:
     remote:
-      path: docker/MyApi/Data/MyDbContext.cs
+      path: Data/MyDbContext.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Items
     path: Data/MyDbContext.cs
     startLine: 9

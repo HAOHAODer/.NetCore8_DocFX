@@ -13,6 +13,10 @@
   "MyApi.Data.MyDbContext.Items": "MyApi.Data.MyDbContext.yml",
   "MyApi.Models": "MyApi.Models.yml",
   "MyApi.Models.Item": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.CreateSampleItems": "MyApi.Models.Item.yml",
   "MyApi.Models.Item.Id": "MyApi.Models.Item.yml",
-  "MyApi.Models.Item.Name": "MyApi.Models.Item.yml"
+  "MyApi.Models.Item.IsValid": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.Name": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.ToString": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.UpdateName(System.String)": "MyApi.Models.Item.yml"
 }

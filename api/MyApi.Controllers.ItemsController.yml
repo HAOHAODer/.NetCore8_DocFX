@@ -20,9 +20,9 @@ items:
   type: Class
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: ItemsController
     path: Controllers/ItemsController.cs
     startLine: 10
@@ -248,9 +248,9 @@ items:
   type: Constructor
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: .ctor
     path: Controllers/ItemsController.cs
     startLine: 16
@@ -280,9 +280,9 @@ items:
   type: Method
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Get
     path: Controllers/ItemsController.cs
     startLine: 25
@@ -321,9 +321,9 @@ items:
   type: Method
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Get
     path: Controllers/ItemsController.cs
     startLine: 36
@@ -371,9 +371,9 @@ items:
   type: Method
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Post
     path: Controllers/ItemsController.cs
     startLine: 52
@@ -416,9 +416,9 @@ items:
   type: Method
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Put
     path: Controllers/ItemsController.cs
     startLine: 66
@@ -469,9 +469,9 @@ items:
   type: Method
   source:
     remote:
-      path: docker/MyApi/Controllers/ItemsController.cs
+      path: Controllers/ItemsController.cs
       branch: main
-      repo: git@github.com:HSUHAOBM/note.git
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
     id: Delete
     path: Controllers/ItemsController.cs
     startLine: 100

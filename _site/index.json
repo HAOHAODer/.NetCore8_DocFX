@@ -22,7 +22,7 @@
   "api/MyApi.Models.Item.html": {
     "href": "api/MyApi.Models.Item.html",
     "title": "Class Item | mysite",
-    "keywords": "Class Item Namespace MyApi.Models Assembly MyApi.dll public class Item Inheritance object Item Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties Id public int Id { get; set; } Property Value int Name public string? Name { get; set; } Property Value string"
+    "keywords": "Class Item Namespace MyApi.Models Assembly MyApi.dll public class Item Inheritance object Item Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Properties Id public int Id { get; set; } Property Value int Name public string? Name { get; set; } Property Value string Methods CreateSampleItems() Creates a list of sample items. public static List<Item> CreateSampleItems() Returns List<Item> A list of sample items. IsValid() Checks if the item is valid based on certain criteria. public bool IsValid() Returns bool True if the item is valid; otherwise, false. ToString() Returns a formatted string representation of the item. public override string ToString() Returns string A string representing the item. UpdateName(string) Updates the name of the item. public void UpdateName(string newName) Parameters newName string The new name for the item."
   },
   "api/MyApi.Models.html": {
     "href": "api/MyApi.Models.html",

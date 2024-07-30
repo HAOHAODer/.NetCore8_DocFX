@@ -155,6 +155,19 @@ references:
   commentId: T:MyApi.Models.Item
   fullName: MyApi.Models.Item
   nameWithType: Item
+- uid: MyApi.Models.Item.CreateSampleItems
+  name: CreateSampleItems()
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_CreateSampleItems
+  commentId: M:MyApi.Models.Item.CreateSampleItems
+  fullName: MyApi.Models.Item.CreateSampleItems()
+  nameWithType: Item.CreateSampleItems()
+- uid: MyApi.Models.Item.CreateSampleItems*
+  name: CreateSampleItems
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_CreateSampleItems_
+  commentId: Overload:MyApi.Models.Item.CreateSampleItems
+  isSpec: "True"
+  fullName: MyApi.Models.Item.CreateSampleItems
+  nameWithType: Item.CreateSampleItems
 - uid: MyApi.Models.Item.Id
   name: Id
   href: api/MyApi.Models.Item.html#MyApi_Models_Item_Id
@@ -168,6 +181,19 @@ references:
   isSpec: "True"
   fullName: MyApi.Models.Item.Id
   nameWithType: Item.Id
+- uid: MyApi.Models.Item.IsValid
+  name: IsValid()
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_IsValid
+  commentId: M:MyApi.Models.Item.IsValid
+  fullName: MyApi.Models.Item.IsValid()
+  nameWithType: Item.IsValid()
+- uid: MyApi.Models.Item.IsValid*
+  name: IsValid
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_IsValid_
+  commentId: Overload:MyApi.Models.Item.IsValid
+  isSpec: "True"
+  fullName: MyApi.Models.Item.IsValid
+  nameWithType: Item.IsValid
 - uid: MyApi.Models.Item.Name
   name: Name
   href: api/MyApi.Models.Item.html#MyApi_Models_Item_Name
@@ -181,3 +207,32 @@ references:
   isSpec: "True"
   fullName: MyApi.Models.Item.Name
   nameWithType: Item.Name
+- uid: MyApi.Models.Item.ToString
+  name: ToString()
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_ToString
+  commentId: M:MyApi.Models.Item.ToString
+  fullName: MyApi.Models.Item.ToString()
+  nameWithType: Item.ToString()
+- uid: MyApi.Models.Item.ToString*
+  name: ToString
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_ToString_
+  commentId: Overload:MyApi.Models.Item.ToString
+  isSpec: "True"
+  fullName: MyApi.Models.Item.ToString
+  nameWithType: Item.ToString
+- uid: MyApi.Models.Item.UpdateName(System.String)
+  name: UpdateName(string)
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_UpdateName_System_String_
+  commentId: M:MyApi.Models.Item.UpdateName(System.String)
+  name.vb: UpdateName(String)
+  fullName: MyApi.Models.Item.UpdateName(string)
+  fullName.vb: MyApi.Models.Item.UpdateName(String)
+  nameWithType: Item.UpdateName(string)
+  nameWithType.vb: Item.UpdateName(String)
+- uid: MyApi.Models.Item.UpdateName*
+  name: UpdateName
+  href: api/MyApi.Models.Item.html#MyApi_Models_Item_UpdateName_
+  commentId: Overload:MyApi.Models.Item.UpdateName
+  isSpec: "True"
+  fullName: MyApi.Models.Item.UpdateName
+  nameWithType: Item.UpdateName
