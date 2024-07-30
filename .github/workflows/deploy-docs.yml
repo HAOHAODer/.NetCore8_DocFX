@@ -32,12 +32,12 @@ jobs:
 
     - run: dotnet tool update -g docfx
 
-    - run: docfx MyApi/docfx.json
+    - run: docfx docfx.json
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: 'MyApi/_site'
+        path: '/_site'
 
     - name: Deploy to GitHub Pages
       id: deployment
