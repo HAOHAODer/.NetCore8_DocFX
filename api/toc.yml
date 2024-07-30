@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+items:
+- uid: MyApi.Controllers
+  name: MyApi.Controllers
+  items:
+  - uid: MyApi.Controllers.ItemsController
+    name: ItemsController
+- uid: MyApi.Data
+  name: MyApi.Data
+  items:
+  - uid: MyApi.Data.MyDbContext
+    name: MyDbContext
+- uid: MyApi.Models
+  name: MyApi.Models
+  items:
+  - uid: MyApi.Models.Item
+    name: Item
+memberLayout: SamePage

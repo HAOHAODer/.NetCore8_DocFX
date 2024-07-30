@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApi.Data
+  commentId: N:MyApi.Data
+  id: MyApi.Data
+  children:
+  - MyApi.Data.MyDbContext
+  langs:
+  - csharp
+  - vb
+  name: MyApi.Data
+  nameWithType: MyApi.Data
+  fullName: MyApi.Data
+  type: Namespace
+  assemblies:
+  - MyApi
+references:
+- uid: MyApi.Data.MyDbContext
+  commentId: T:MyApi.Data.MyDbContext
+  parent: MyApi.Data
+  href: MyApi.Data.MyDbContext.html
+  name: MyDbContext
+  nameWithType: MyDbContext
+  fullName: MyApi.Data.MyDbContext
+- uid: MyApi.Data
+  commentId: N:MyApi.Data
+  href: MyApi.html
+  name: MyApi.Data
+  nameWithType: MyApi.Data
+  fullName: MyApi.Data
+  spec.csharp:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Data
+    name: Data
+    href: MyApi.Data.html
+  spec.vb:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Data
+    name: Data
+    href: MyApi.Data.html

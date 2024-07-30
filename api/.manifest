@@ -1,0 +1,18 @@
+{
+  "MyApi.Controllers": "MyApi.Controllers.yml",
+  "MyApi.Controllers.ItemsController": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.#ctor(MyApi.Data.MyDbContext)": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.Delete(System.Int32)": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.Get": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.Get(System.Int32)": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.Post(MyApi.Models.Item)": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Controllers.ItemsController.Put(System.Int32,MyApi.Models.Item)": "MyApi.Controllers.ItemsController.yml",
+  "MyApi.Data": "MyApi.Data.yml",
+  "MyApi.Data.MyDbContext": "MyApi.Data.MyDbContext.yml",
+  "MyApi.Data.MyDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{MyApi.Data.MyDbContext})": "MyApi.Data.MyDbContext.yml",
+  "MyApi.Data.MyDbContext.Items": "MyApi.Data.MyDbContext.yml",
+  "MyApi.Models": "MyApi.Models.yml",
+  "MyApi.Models.Item": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.Id": "MyApi.Models.Item.yml",
+  "MyApi.Models.Item.Name": "MyApi.Models.Item.yml"
+}

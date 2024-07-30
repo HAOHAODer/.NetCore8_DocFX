@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApi.Models
+  commentId: N:MyApi.Models
+  id: MyApi.Models
+  children:
+  - MyApi.Models.Item
+  langs:
+  - csharp
+  - vb
+  name: MyApi.Models
+  nameWithType: MyApi.Models
+  fullName: MyApi.Models
+  type: Namespace
+  assemblies:
+  - MyApi
+references:
+- uid: MyApi.Models.Item
+  commentId: T:MyApi.Models.Item
+  parent: MyApi.Models
+  href: MyApi.Models.Item.html
+  name: Item
+  nameWithType: Item
+  fullName: MyApi.Models.Item
+- uid: MyApi.Models
+  commentId: N:MyApi.Models
+  href: MyApi.html
+  name: MyApi.Models
+  nameWithType: MyApi.Models
+  fullName: MyApi.Models
+  spec.csharp:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Models
+    name: Models
+    href: MyApi.Models.html
+  spec.vb:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Models
+    name: Models
+    href: MyApi.Models.html
