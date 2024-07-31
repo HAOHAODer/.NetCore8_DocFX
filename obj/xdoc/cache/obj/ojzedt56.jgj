@@ -1,0 +1,1534 @@
+id: MyApi
+language: CSharp
+name:
+  Default: MyApi
+qualifiedName:
+  Default: MyApi
+type: Assembly
+modifiers: {}
+items:
+- id: MyApi.Controllers
+  commentId: N:MyApi.Controllers
+  language: CSharp
+  name:
+    CSharp: MyApi.Controllers
+    VB: MyApi.Controllers
+  nameWithType:
+    CSharp: MyApi.Controllers
+    VB: MyApi.Controllers
+  qualifiedName:
+    CSharp: MyApi.Controllers
+    VB: MyApi.Controllers
+  type: Namespace
+  assemblies:
+  - MyApi
+  modifiers: {}
+  items:
+  - id: MyApi.Controllers.ItemsController
+    commentId: T:MyApi.Controllers.ItemsController
+    language: CSharp
+    name:
+      CSharp: ItemsController
+      VB: ItemsController
+    nameWithType:
+      CSharp: ItemsController
+      VB: ItemsController
+    qualifiedName:
+      CSharp: MyApi.Controllers.ItemsController
+      VB: MyApi.Controllers.ItemsController
+    type: Class
+    assemblies:
+    - MyApi
+    namespace: MyApi.Controllers
+    source:
+      remote:
+        path: Controllers/ItemsController.cs
+        branch: main
+        repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+      id: ItemsController
+      path: Controllers/ItemsController.cs
+      startLine: 10
+    syntax:
+      content:
+        CSharp: 'public class ItemsController : ControllerBase'
+        VB: >-
+          Public Class ItemsController
+
+              Inherits ControllerBase
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: MyApi.Controllers.ItemsController.#ctor(MyApi.Data.MyDbContext)
+      commentId: M:MyApi.Controllers.ItemsController.#ctor(MyApi.Data.MyDbContext)
+      language: CSharp
+      name:
+        CSharp: ItemsController(MyDbContext)
+        VB: ItemsController(MyDbContext)
+      nameWithType:
+        CSharp: ItemsController.ItemsController(MyDbContext)
+        VB: ItemsController.ItemsController(MyDbContext)
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.ItemsController(MyApi.Data.MyDbContext)
+        VB: MyApi.Controllers.ItemsController.ItemsController(MyApi.Data.MyDbContext)
+      type: Constructor
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: .ctor
+        path: Controllers/ItemsController.cs
+        startLine: 16
+      syntax:
+        content:
+          CSharp: public ItemsController(MyDbContext context)
+          VB: Public Sub New(context As MyDbContext)
+        parameters:
+        - id: context
+          type: MyApi.Data.MyDbContext
+      overload: MyApi.Controllers.ItemsController.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Controllers.ItemsController.Get
+      commentId: M:MyApi.Controllers.ItemsController.Get
+      language: CSharp
+      name:
+        CSharp: Get()
+        VB: Get()
+      nameWithType:
+        CSharp: ItemsController.Get()
+        VB: ItemsController.Get()
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.Get()
+        VB: MyApi.Controllers.ItemsController.Get()
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Get
+        path: Controllers/ItemsController.cs
+        startLine: 25
+      summary: "\nGets all items.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<IEnumerable<Item>> Get()
+          VB: Public Function Get As Task(Of IEnumerable(Of Item))
+        return:
+          type: Task{IEnumerable{MyApi.Models.Item}}
+          description: A list of items.
+      overload: MyApi.Controllers.ItemsController.Get*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Controllers.ItemsController.Get(System.Int32)
+      commentId: M:MyApi.Controllers.ItemsController.Get(System.Int32)
+      language: CSharp
+      name:
+        CSharp: Get(Int32)
+        VB: Get(Int32)
+      nameWithType:
+        CSharp: ItemsController.Get(Int32)
+        VB: ItemsController.Get(Int32)
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.Get(System.Int32)
+        VB: MyApi.Controllers.ItemsController.Get(System.Int32)
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Get
+        path: Controllers/ItemsController.cs
+        startLine: 36
+      summary: "\nGets an item by ID.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<ActionResult<Item>> Get(int id)
+          VB: Public Function Get(id As Integer) As Task(Of ActionResult(Of Item))
+        parameters:
+        - id: id
+          type: System.Int32
+          description: The ID of the item.
+        return:
+          type: Task{ActionResult{MyApi.Models.Item}}
+          description: The item with the specified ID.
+      overload: MyApi.Controllers.ItemsController.Get*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Controllers.ItemsController.Post(MyApi.Models.Item)
+      commentId: M:MyApi.Controllers.ItemsController.Post(MyApi.Models.Item)
+      language: CSharp
+      name:
+        CSharp: Post(Item)
+        VB: Post(Item)
+      nameWithType:
+        CSharp: ItemsController.Post(Item)
+        VB: ItemsController.Post(Item)
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.Post(MyApi.Models.Item)
+        VB: MyApi.Controllers.ItemsController.Post(MyApi.Models.Item)
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Post
+        path: Controllers/ItemsController.cs
+        startLine: 52
+      summary: "\nCreates a new item.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<ActionResult<Item>> Post(Item item)
+          VB: Public Function Post(item As Item) As Task(Of ActionResult(Of Item))
+        parameters:
+        - id: item
+          type: MyApi.Models.Item
+          description: The item to create.
+        return:
+          type: Task{ActionResult{MyApi.Models.Item}}
+          description: The created item.
+      overload: MyApi.Controllers.ItemsController.Post*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Controllers.ItemsController.Put(System.Int32,MyApi.Models.Item)
+      commentId: M:MyApi.Controllers.ItemsController.Put(System.Int32,MyApi.Models.Item)
+      language: CSharp
+      name:
+        CSharp: Put(Int32, Item)
+        VB: Put(Int32, Item)
+      nameWithType:
+        CSharp: ItemsController.Put(Int32, Item)
+        VB: ItemsController.Put(Int32, Item)
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.Put(System.Int32, MyApi.Models.Item)
+        VB: MyApi.Controllers.ItemsController.Put(System.Int32, MyApi.Models.Item)
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Put
+        path: Controllers/ItemsController.cs
+        startLine: 66
+      summary: "\nUpdates an item.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<IActionResult> Put(int id, Item item)
+          VB: Public Function Put(id As Integer, item As Item) As Task(Of IActionResult)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: The ID of the item to update.
+        - id: item
+          type: MyApi.Models.Item
+          description: The updated item.
+        return:
+          type: Task{IActionResult}
+          description: An IActionResult.
+      overload: MyApi.Controllers.ItemsController.Put*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Controllers.ItemsController.Delete(System.Int32)
+      commentId: M:MyApi.Controllers.ItemsController.Delete(System.Int32)
+      language: CSharp
+      name:
+        CSharp: Delete(Int32)
+        VB: Delete(Int32)
+      nameWithType:
+        CSharp: ItemsController.Delete(Int32)
+        VB: ItemsController.Delete(Int32)
+      qualifiedName:
+        CSharp: MyApi.Controllers.ItemsController.Delete(System.Int32)
+        VB: MyApi.Controllers.ItemsController.Delete(System.Int32)
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Controllers
+      source:
+        remote:
+          path: Controllers/ItemsController.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Delete
+        path: Controllers/ItemsController.cs
+        startLine: 100
+      summary: "\nDeletes an item by ID.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public Task<IActionResult> Delete(int id)
+          VB: Public Function Delete(id As Integer) As Task(Of IActionResult)
+        parameters:
+        - id: id
+          type: System.Int32
+          description: The ID of the item to delete.
+        return:
+          type: Task{IActionResult}
+          description: An IActionResult.
+      overload: MyApi.Controllers.ItemsController.Delete*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+- id: MyApi.Data
+  commentId: N:MyApi.Data
+  language: CSharp
+  name:
+    CSharp: MyApi.Data
+    VB: MyApi.Data
+  nameWithType:
+    CSharp: MyApi.Data
+    VB: MyApi.Data
+  qualifiedName:
+    CSharp: MyApi.Data
+    VB: MyApi.Data
+  type: Namespace
+  assemblies:
+  - MyApi
+  modifiers: {}
+  items:
+  - id: MyApi.Data.MyDbContext
+    commentId: T:MyApi.Data.MyDbContext
+    language: CSharp
+    name:
+      CSharp: MyDbContext
+      VB: MyDbContext
+    nameWithType:
+      CSharp: MyDbContext
+      VB: MyDbContext
+    qualifiedName:
+      CSharp: MyApi.Data.MyDbContext
+      VB: MyApi.Data.MyDbContext
+    type: Class
+    assemblies:
+    - MyApi
+    namespace: MyApi.Data
+    source:
+      remote:
+        path: Data/MyDbContext.cs
+        branch: main
+        repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+      id: MyDbContext
+      path: Data/MyDbContext.cs
+      startLine: 5
+    syntax:
+      content:
+        CSharp: 'public class MyDbContext : DbContext'
+        VB: >-
+          Public Class MyDbContext
+
+              Inherits DbContext
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: MyApi.Data.MyDbContext.#ctor(DbContextOptions{MyApi.Data.MyDbContext})
+      commentId: M:MyApi.Data.MyDbContext.#ctor(DbContextOptions{MyApi.Data.MyDbContext})
+      language: CSharp
+      name:
+        CSharp: MyDbContext(DbContextOptions<MyDbContext>)
+        VB: MyDbContext(DbContextOptions(Of MyDbContext))
+      nameWithType:
+        CSharp: MyDbContext.MyDbContext(DbContextOptions<MyDbContext>)
+        VB: MyDbContext.MyDbContext(DbContextOptions(Of MyDbContext))
+      qualifiedName:
+        CSharp: MyApi.Data.MyDbContext.MyDbContext(DbContextOptions<MyApi.Data.MyDbContext>)
+        VB: MyApi.Data.MyDbContext.MyDbContext(DbContextOptions(Of MyApi.Data.MyDbContext))
+      type: Constructor
+      assemblies:
+      - MyApi
+      namespace: MyApi.Data
+      source:
+        remote:
+          path: Data/MyDbContext.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: .ctor
+        path: Data/MyDbContext.cs
+        startLine: 7
+      syntax:
+        content:
+          CSharp: public MyDbContext(DbContextOptions<MyDbContext> options)
+          VB: Public Sub New(options As DbContextOptions(Of MyDbContext))
+        parameters:
+        - id: options
+          type: DbContextOptions{MyApi.Data.MyDbContext}
+      overload: MyApi.Data.MyDbContext.#ctor*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Data.MyDbContext.Items
+      commentId: P:MyApi.Data.MyDbContext.Items
+      language: CSharp
+      name:
+        CSharp: Items
+        VB: Items
+      nameWithType:
+        CSharp: MyDbContext.Items
+        VB: MyDbContext.Items
+      qualifiedName:
+        CSharp: MyApi.Data.MyDbContext.Items
+        VB: MyApi.Data.MyDbContext.Items
+      type: Property
+      assemblies:
+      - MyApi
+      namespace: MyApi.Data
+      source:
+        remote:
+          path: Data/MyDbContext.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Items
+        path: Data/MyDbContext.cs
+        startLine: 9
+      syntax:
+        content:
+          CSharp: public DbSet<Item> Items { get; set; }
+          VB: Public Property Items As DbSet(Of Item)
+        parameters: []
+        return:
+          type: DbSet{MyApi.Models.Item}
+      overload: MyApi.Data.MyDbContext.Items*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+- id: MyApi.Models
+  commentId: N:MyApi.Models
+  language: CSharp
+  name:
+    CSharp: MyApi.Models
+    VB: MyApi.Models
+  nameWithType:
+    CSharp: MyApi.Models
+    VB: MyApi.Models
+  qualifiedName:
+    CSharp: MyApi.Models
+    VB: MyApi.Models
+  type: Namespace
+  assemblies:
+  - MyApi
+  modifiers: {}
+  items:
+  - id: MyApi.Models.Item
+    commentId: T:MyApi.Models.Item
+    language: CSharp
+    name:
+      CSharp: Item
+      VB: Item
+    nameWithType:
+      CSharp: Item
+      VB: Item
+    qualifiedName:
+      CSharp: MyApi.Models.Item
+      VB: MyApi.Models.Item
+    type: Class
+    assemblies:
+    - MyApi
+    namespace: MyApi.Models
+    source:
+      remote:
+        path: Models/Item.cs
+        branch: main
+        repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+      id: Item
+      path: Models/Item.cs
+      startLine: 4
+    syntax:
+      content:
+        CSharp: 'public class Item : object'
+        VB: >-
+          Public Class Item
+
+              Inherits Object
+    inheritance:
+    - System.Object
+    modifiers:
+      CSharp:
+      - public
+      - class
+      VB:
+      - Public
+      - Class
+    items:
+    - id: MyApi.Models.Item.Id
+      commentId: P:MyApi.Models.Item.Id
+      language: CSharp
+      name:
+        CSharp: Id
+        VB: Id
+      nameWithType:
+        CSharp: Item.Id
+        VB: Item.Id
+      qualifiedName:
+        CSharp: MyApi.Models.Item.Id
+        VB: MyApi.Models.Item.Id
+      type: Property
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Id
+        path: Models/Item.cs
+        startLine: 6
+      syntax:
+        content:
+          CSharp: public int Id { get; set; }
+          VB: Public Property Id As Integer
+        parameters: []
+        return:
+          type: System.Int32
+      overload: MyApi.Models.Item.Id*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: MyApi.Models.Item.Name
+      commentId: P:MyApi.Models.Item.Name
+      language: CSharp
+      name:
+        CSharp: Name
+        VB: Name
+      nameWithType:
+        CSharp: Item.Name
+        VB: Item.Name
+      qualifiedName:
+        CSharp: MyApi.Models.Item.Name
+        VB: MyApi.Models.Item.Name
+      type: Property
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: Name
+        path: Models/Item.cs
+        startLine: 7
+      syntax:
+        content:
+          CSharp: public string? Name { get; set; }
+          VB: Public Property Name As String?
+        parameters: []
+        return:
+          type: System.Nullable{System.String}
+      overload: MyApi.Models.Item.Name*
+      modifiers:
+        CSharp:
+        - public
+        - get
+        - set
+        VB:
+        - Public
+    - id: MyApi.Models.Item.ToString
+      commentId: M:MyApi.Models.Item.ToString
+      language: CSharp
+      name:
+        CSharp: ToString()
+        VB: ToString()
+      nameWithType:
+        CSharp: Item.ToString()
+        VB: Item.ToString()
+      qualifiedName:
+        CSharp: MyApi.Models.Item.ToString()
+        VB: MyApi.Models.Item.ToString()
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: ToString
+        path: Models/Item.cs
+        startLine: 13
+      summary: "\nReturns a formatted string representation of the item.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public override string ToString()
+          VB: Public Overrides Function ToString As String
+        return:
+          type: System.String
+          description: A string representing the item.
+      overload: MyApi.Models.Item.ToString*
+      modifiers:
+        CSharp:
+        - public
+        - override
+        VB:
+        - Public
+        - Overrides
+    - id: MyApi.Models.Item.UpdateName(System.String)
+      commentId: M:MyApi.Models.Item.UpdateName(System.String)
+      language: CSharp
+      name:
+        CSharp: UpdateName(String)
+        VB: UpdateName(String)
+      nameWithType:
+        CSharp: Item.UpdateName(String)
+        VB: Item.UpdateName(String)
+      qualifiedName:
+        CSharp: MyApi.Models.Item.UpdateName(System.String)
+        VB: MyApi.Models.Item.UpdateName(System.String)
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: UpdateName
+        path: Models/Item.cs
+        startLine: 22
+      summary: "\nUpdates the name of the item.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public void UpdateName(string newName)
+          VB: Public Sub UpdateName(newName As String)
+        parameters:
+        - id: newName
+          type: System.String
+          description: The new name for the item.
+      overload: MyApi.Models.Item.UpdateName*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Models.Item.IsValid
+      commentId: M:MyApi.Models.Item.IsValid
+      language: CSharp
+      name:
+        CSharp: IsValid()
+        VB: IsValid()
+      nameWithType:
+        CSharp: Item.IsValid()
+        VB: Item.IsValid()
+      qualifiedName:
+        CSharp: MyApi.Models.Item.IsValid()
+        VB: MyApi.Models.Item.IsValid()
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: IsValid
+        path: Models/Item.cs
+        startLine: 31
+      summary: "\nChecks if the item is valid based on certain criteria.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public bool IsValid()
+          VB: Public Function IsValid As Boolean
+        return:
+          type: System.Boolean
+          description: True if the item is valid; otherwise, false.
+      overload: MyApi.Models.Item.IsValid*
+      modifiers:
+        CSharp:
+        - public
+        VB:
+        - Public
+    - id: MyApi.Models.Item.CreateSampleItems
+      commentId: M:MyApi.Models.Item.CreateSampleItems
+      language: CSharp
+      name:
+        CSharp: CreateSampleItems()
+        VB: CreateSampleItems()
+      nameWithType:
+        CSharp: Item.CreateSampleItems()
+        VB: Item.CreateSampleItems()
+      qualifiedName:
+        CSharp: MyApi.Models.Item.CreateSampleItems()
+        VB: MyApi.Models.Item.CreateSampleItems()
+      type: Method
+      assemblies:
+      - MyApi
+      namespace: MyApi.Models
+      source:
+        remote:
+          path: Models/Item.cs
+          branch: main
+          repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+        id: CreateSampleItems
+        path: Models/Item.cs
+        startLine: 40
+      summary: "\nCreates a list of sample items.\n"
+      example: []
+      syntax:
+        content:
+          CSharp: public static List<Item> CreateSampleItems()
+          VB: Public Shared Function CreateSampleItems As List(Of Item)
+        return:
+          type: List{MyApi.Models.Item}
+          description: A list of sample items.
+      overload: MyApi.Models.Item.CreateSampleItems*
+      modifiers:
+        CSharp:
+        - public
+        - static
+        VB:
+        - Public
+        - Shared
+references:
+  MyApi.Data:
+    name:
+      CSharp:
+      - name: MyApi.Data
+        nameWithType: MyApi.Data
+        qualifiedName: MyApi.Data
+      VB:
+      - name: MyApi.Data
+        nameWithType: MyApi.Data
+        qualifiedName: MyApi.Data
+    isDefinition: true
+    commentId: N:MyApi.Data
+  MyApi.Data.MyDbContext:
+    name:
+      CSharp:
+      - id: MyApi.Data.MyDbContext
+        name: MyDbContext
+        nameWithType: MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext
+      VB:
+      - id: MyApi.Data.MyDbContext
+        name: MyDbContext
+        nameWithType: MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext
+    isDefinition: true
+    parent: MyApi.Data
+    commentId: T:MyApi.Data.MyDbContext
+  MyApi.Controllers.ItemsController.#ctor*:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController.#ctor*
+        name: ItemsController
+        nameWithType: ItemsController.ItemsController
+        qualifiedName: MyApi.Controllers.ItemsController.ItemsController
+      VB:
+      - id: MyApi.Controllers.ItemsController.#ctor*
+        name: ItemsController
+        nameWithType: ItemsController.ItemsController
+        qualifiedName: MyApi.Controllers.ItemsController.ItemsController
+    isDefinition: true
+    commentId: Overload:MyApi.Controllers.ItemsController.#ctor
+  Task`1:
+    name:
+      CSharp:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+  Task{IEnumerable{MyApi.Models.Item}}:
+    name:
+      CSharp:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: IEnumerable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: IEnumerable`1
+        name: IEnumerable
+        nameWithType: IEnumerable
+        qualifiedName: IEnumerable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Task`1
+    commentId: '!:Task{IEnumerable{MyApi.Models.Item}}'
+  MyApi.Controllers.ItemsController.Get*:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController.Get*
+        name: Get
+        nameWithType: ItemsController.Get
+        qualifiedName: MyApi.Controllers.ItemsController.Get
+      VB:
+      - id: MyApi.Controllers.ItemsController.Get*
+        name: Get
+        nameWithType: ItemsController.Get
+        qualifiedName: MyApi.Controllers.ItemsController.Get
+    isDefinition: true
+    commentId: Overload:MyApi.Controllers.ItemsController.Get
+  Task{ActionResult{MyApi.Models.Item}}:
+    name:
+      CSharp:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: ActionResult`1
+        name: ActionResult
+        nameWithType: ActionResult
+        qualifiedName: ActionResult
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: ActionResult`1
+        name: ActionResult
+        nameWithType: ActionResult
+        qualifiedName: ActionResult
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Task`1
+    commentId: '!:Task{ActionResult{MyApi.Models.Item}}'
+  System.Int32:
+    name:
+      CSharp:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+      VB:
+      - id: System.Int32
+        name: Int32
+        nameWithType: Int32
+        qualifiedName: System.Int32
+        isExternal: true
+    isDefinition: true
+  MyApi.Models:
+    name:
+      CSharp:
+      - name: MyApi.Models
+        nameWithType: MyApi.Models
+        qualifiedName: MyApi.Models
+      VB:
+      - name: MyApi.Models
+        nameWithType: MyApi.Models
+        qualifiedName: MyApi.Models
+    isDefinition: true
+    commentId: N:MyApi.Models
+  MyApi.Models.Item:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      VB:
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+    isDefinition: true
+    parent: MyApi.Models
+    commentId: T:MyApi.Models.Item
+  MyApi.Controllers.ItemsController.Post*:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController.Post*
+        name: Post
+        nameWithType: ItemsController.Post
+        qualifiedName: MyApi.Controllers.ItemsController.Post
+      VB:
+      - id: MyApi.Controllers.ItemsController.Post*
+        name: Post
+        nameWithType: ItemsController.Post
+        qualifiedName: MyApi.Controllers.ItemsController.Post
+    isDefinition: true
+    commentId: Overload:MyApi.Controllers.ItemsController.Post
+  Task{IActionResult}:
+    name:
+      CSharp:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: IActionResult
+        name: IActionResult
+        nameWithType: IActionResult
+        qualifiedName: IActionResult
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: Task`1
+        name: Task
+        nameWithType: Task
+        qualifiedName: Task
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: IActionResult
+        name: IActionResult
+        nameWithType: IActionResult
+        qualifiedName: IActionResult
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: Task`1
+    commentId: '!:Task{IActionResult}'
+  MyApi.Controllers.ItemsController.Put*:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController.Put*
+        name: Put
+        nameWithType: ItemsController.Put
+        qualifiedName: MyApi.Controllers.ItemsController.Put
+      VB:
+      - id: MyApi.Controllers.ItemsController.Put*
+        name: Put
+        nameWithType: ItemsController.Put
+        qualifiedName: MyApi.Controllers.ItemsController.Put
+    isDefinition: true
+    commentId: Overload:MyApi.Controllers.ItemsController.Put
+  MyApi.Controllers.ItemsController.Delete*:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController.Delete*
+        name: Delete
+        nameWithType: ItemsController.Delete
+        qualifiedName: MyApi.Controllers.ItemsController.Delete
+      VB:
+      - id: MyApi.Controllers.ItemsController.Delete*
+        name: Delete
+        nameWithType: ItemsController.Delete
+        qualifiedName: MyApi.Controllers.ItemsController.Delete
+    isDefinition: true
+    commentId: Overload:MyApi.Controllers.ItemsController.Delete
+  MyApi.Controllers.ItemsController:
+    name:
+      CSharp:
+      - id: MyApi.Controllers.ItemsController
+        name: ItemsController
+        nameWithType: ItemsController
+        qualifiedName: MyApi.Controllers.ItemsController
+      VB:
+      - id: MyApi.Controllers.ItemsController
+        name: ItemsController
+        nameWithType: ItemsController
+        qualifiedName: MyApi.Controllers.ItemsController
+    isDefinition: true
+    commentId: T:MyApi.Controllers.ItemsController
+  MyApi.Controllers:
+    name:
+      CSharp:
+      - name: MyApi.Controllers
+        nameWithType: MyApi.Controllers
+        qualifiedName: MyApi.Controllers
+      VB:
+      - name: MyApi.Controllers
+        nameWithType: MyApi.Controllers
+        qualifiedName: MyApi.Controllers
+    isDefinition: true
+    commentId: N:MyApi.Controllers
+  DbContextOptions`1:
+    name:
+      CSharp:
+      - id: DbContextOptions`1
+        name: DbContextOptions
+        nameWithType: DbContextOptions
+        qualifiedName: DbContextOptions
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: DbContextOptions`1
+        name: DbContextOptions
+        nameWithType: DbContextOptions
+        qualifiedName: DbContextOptions
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:DbContextOptions`1'
+  DbContextOptions{MyApi.Data.MyDbContext}:
+    name:
+      CSharp:
+      - id: DbContextOptions`1
+        name: DbContextOptions
+        nameWithType: DbContextOptions
+        qualifiedName: DbContextOptions
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: MyApi.Data.MyDbContext
+        name: MyDbContext
+        nameWithType: MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: DbContextOptions`1
+        name: DbContextOptions
+        nameWithType: DbContextOptions
+        qualifiedName: DbContextOptions
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: MyApi.Data.MyDbContext
+        name: MyDbContext
+        nameWithType: MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: DbContextOptions`1
+    commentId: '!:DbContextOptions{MyApi.Data.MyDbContext}'
+  MyApi.Data.MyDbContext.#ctor*:
+    name:
+      CSharp:
+      - id: MyApi.Data.MyDbContext.#ctor*
+        name: MyDbContext
+        nameWithType: MyDbContext.MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext.MyDbContext
+      VB:
+      - id: MyApi.Data.MyDbContext.#ctor*
+        name: MyDbContext
+        nameWithType: MyDbContext.MyDbContext
+        qualifiedName: MyApi.Data.MyDbContext.MyDbContext
+    isDefinition: true
+    commentId: Overload:MyApi.Data.MyDbContext.#ctor
+  DbSet`1:
+    name:
+      CSharp:
+      - id: DbSet`1
+        name: DbSet
+        nameWithType: DbSet
+        qualifiedName: DbSet
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: DbSet`1
+        name: DbSet
+        nameWithType: DbSet
+        qualifiedName: DbSet
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:DbSet`1'
+  DbSet{MyApi.Models.Item}:
+    name:
+      CSharp:
+      - id: DbSet`1
+        name: DbSet
+        nameWithType: DbSet
+        qualifiedName: DbSet
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: DbSet`1
+        name: DbSet
+        nameWithType: DbSet
+        qualifiedName: DbSet
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: DbSet`1
+    commentId: '!:DbSet{MyApi.Models.Item}'
+  MyApi.Data.MyDbContext.Items*:
+    name:
+      CSharp:
+      - id: MyApi.Data.MyDbContext.Items*
+        name: Items
+        nameWithType: MyDbContext.Items
+        qualifiedName: MyApi.Data.MyDbContext.Items
+      VB:
+      - id: MyApi.Data.MyDbContext.Items*
+        name: Items
+        nameWithType: MyDbContext.Items
+        qualifiedName: MyApi.Data.MyDbContext.Items
+    isDefinition: true
+    commentId: Overload:MyApi.Data.MyDbContext.Items
+  MyApi.Models.Item.Id*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.Id*
+        name: Id
+        nameWithType: Item.Id
+        qualifiedName: MyApi.Models.Item.Id
+      VB:
+      - id: MyApi.Models.Item.Id*
+        name: Id
+        nameWithType: Item.Id
+        qualifiedName: MyApi.Models.Item.Id
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.Id
+  System.Nullable`1:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:System.Nullable`1'
+  System.Nullable{System.String}:
+    name:
+      CSharp:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: System.Nullable`1
+        name: Nullable
+        nameWithType: Nullable
+        qualifiedName: System.Nullable
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: System.Nullable`1
+    commentId: '!:System.Nullable{System.String}'
+  MyApi.Models.Item.Name*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.Name*
+        name: Name
+        nameWithType: Item.Name
+        qualifiedName: MyApi.Models.Item.Name
+      VB:
+      - id: MyApi.Models.Item.Name*
+        name: Name
+        nameWithType: Item.Name
+        qualifiedName: MyApi.Models.Item.Name
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.Name
+  System.String:
+    name:
+      CSharp:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+      VB:
+      - id: System.String
+        name: String
+        nameWithType: String
+        qualifiedName: System.String
+        isExternal: true
+    isDefinition: true
+  MyApi.Models.Item.ToString*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.ToString*
+        name: ToString
+        nameWithType: Item.ToString
+        qualifiedName: MyApi.Models.Item.ToString
+      VB:
+      - id: MyApi.Models.Item.ToString*
+        name: ToString
+        nameWithType: Item.ToString
+        qualifiedName: MyApi.Models.Item.ToString
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.ToString
+  MyApi.Models.Item.UpdateName*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.UpdateName*
+        name: UpdateName
+        nameWithType: Item.UpdateName
+        qualifiedName: MyApi.Models.Item.UpdateName
+      VB:
+      - id: MyApi.Models.Item.UpdateName*
+        name: UpdateName
+        nameWithType: Item.UpdateName
+        qualifiedName: MyApi.Models.Item.UpdateName
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.UpdateName
+  System.Boolean:
+    name:
+      CSharp:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+      VB:
+      - id: System.Boolean
+        name: Boolean
+        nameWithType: Boolean
+        qualifiedName: System.Boolean
+        isExternal: true
+    isDefinition: true
+    commentId: '!:System.Boolean'
+  MyApi.Models.Item.IsValid*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.IsValid*
+        name: IsValid
+        nameWithType: Item.IsValid
+        qualifiedName: MyApi.Models.Item.IsValid
+      VB:
+      - id: MyApi.Models.Item.IsValid*
+        name: IsValid
+        nameWithType: Item.IsValid
+        qualifiedName: MyApi.Models.Item.IsValid
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.IsValid
+  List`1:
+    name:
+      CSharp:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - name: ''
+        nameWithType: ''
+        qualifiedName: ''
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: true
+    commentId: '!:List`1'
+  List{MyApi.Models.Item}:
+    name:
+      CSharp:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: <
+        nameWithType: <
+        qualifiedName: <
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: '>'
+        nameWithType: '>'
+        qualifiedName: '>'
+      VB:
+      - id: List`1
+        name: List
+        nameWithType: List
+        qualifiedName: List
+        isExternal: true
+      - name: '(Of '
+        nameWithType: '(Of '
+        qualifiedName: '(Of '
+      - id: MyApi.Models.Item
+        name: Item
+        nameWithType: Item
+        qualifiedName: MyApi.Models.Item
+      - name: )
+        nameWithType: )
+        qualifiedName: )
+    isDefinition: false
+    definition: List`1
+    commentId: '!:List{MyApi.Models.Item}'
+  MyApi.Models.Item.CreateSampleItems*:
+    name:
+      CSharp:
+      - id: MyApi.Models.Item.CreateSampleItems*
+        name: CreateSampleItems
+        nameWithType: Item.CreateSampleItems
+        qualifiedName: MyApi.Models.Item.CreateSampleItems
+      VB:
+      - id: MyApi.Models.Item.CreateSampleItems*
+        name: CreateSampleItems
+        nameWithType: Item.CreateSampleItems
+        qualifiedName: MyApi.Models.Item.CreateSampleItems
+    isDefinition: true
+    commentId: Overload:MyApi.Models.Item.CreateSampleItems

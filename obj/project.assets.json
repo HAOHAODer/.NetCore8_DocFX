@@ -1164,26 +1164,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\yu66631\\.nuget\\packages\\": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\project\\side_project\\Github\\note\\docker\\MyApi\\MyApi.csproj",
+      "projectUniqueName": "/app/MyApi.csproj",
       "projectName": "MyApi",
-      "projectPath": "E:\\project\\side_project\\Github\\note\\docker\\MyApi\\MyApi.csproj",
-      "packagesPath": "C:\\Users\\yu66631\\.nuget\\packages\\",
-      "outputPath": "E:\\project\\side_project\\Github\\note\\docker\\MyApi\\obj\\",
+      "projectPath": "/app/MyApi.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/app/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\yu66631\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1239,7 +1237,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
