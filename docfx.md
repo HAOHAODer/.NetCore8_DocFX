@@ -1,4 +1,9 @@
 
+dotnet tool update -g docfx
+
+# 初始化
+docfx init
+
 # 產生 docfx.json
 ```
 docfx metadata

@@ -10,6 +10,11 @@ items:
   items:
   - uid: MyApi.Data.MyDbContext
     name: MyDbContext
+- uid: MyApi.Helpers
+  name: MyApi.Helpers
+  items:
+  - uid: MyApi.Helpers.Utilities
+    name: Utilities
 - uid: MyApi.Models
   name: MyApi.Models
   items:

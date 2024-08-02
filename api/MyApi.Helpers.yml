@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApi.Helpers
+  commentId: N:MyApi.Helpers
+  id: MyApi.Helpers
+  children:
+  - MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: MyApi.Helpers
+  nameWithType: MyApi.Helpers
+  fullName: MyApi.Helpers
+  type: Namespace
+  assemblies:
+  - MyApi
+references:
+- uid: MyApi.Helpers.Utilities
+  commentId: T:MyApi.Helpers.Utilities
+  href: MyApi.Helpers.Utilities.html
+  name: Utilities
+  nameWithType: Utilities
+  fullName: MyApi.Helpers.Utilities

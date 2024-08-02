@@ -19,6 +19,16 @@
     "title": "Namespace MyApi.Data | mysite",
     "keywords": "Namespace MyApi.Data Classes MyDbContext"
   },
+  "api/MyApi.Helpers.Utilities.html": {
+    "href": "api/MyApi.Helpers.Utilities.html",
+    "title": "Class Utilities | mysite",
+    "keywords": "Class Utilities Namespace MyApi.Helpers Assembly MyApi.dll Summary description for Utilities public class Utilities Inheritance object Utilities Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Constructors Utilities(IHttpContextAccessor) public Utilities(IHttpContextAccessor httpContextAccessor) Parameters httpContextAccessor IHttpContextAccessor Methods ConvertUTF8toBIG5(string) public static string ConvertUTF8toBIG5(string strInput) Parameters strInput string Returns string GetClientIpAddress() 取得用戶端 IP public string GetClientIpAddress() Returns string GetDayHtmlSelect(string) bmk日期格式轉換(20081008-->2008年10月8日) public static string GetDayHtmlSelect(string inputstring) Parameters inputstring string Returns string GetTimeHtmlSelect(string) bmk時間格式轉換(1230-->12點30分) public static string GetTimeHtmlSelect(string inputstring) Parameters inputstring string Returns string IsValidEmail(string) public static bool IsValidEmail(string strIn) Parameters strIn string Returns bool TimeConvertString(int) public static string TimeConvertString(int time) Parameters time int Returns string TimeFormat(string) bmk將時間字串-->數字型態(830-->0830) public static string TimeFormat(string time) Parameters time string Returns string TransNumToChinese(int) 將數字週數轉中文 public static string TransNumToChinese(int num) Parameters num int Returns string TransNumWeekToString(int) 將數字週數轉中文 public static string TransNumWeekToString(int week) Parameters week int Returns string TransString2Date(string) bmk日期格式轉換(20170118-->2017/01/18) public static string TransString2Date(string inputstring) Parameters inputstring string Returns string TransString2Date_all(string) bmk日期格式轉換(20170118-->2017/01/18) public static string TransString2Date_all(string inputstring) Parameters inputstring string Returns string TransTimeString2Double(string) bmk將時間字串-->數字型態(0830-->8.5) public static double TransTimeString2Double(string timestring) Parameters timestring string Returns double"
+  },
+  "api/MyApi.Helpers.html": {
+    "href": "api/MyApi.Helpers.html",
+    "title": "Namespace MyApi.Helpers | mysite",
+    "keywords": "Namespace MyApi.Helpers Classes Utilities Summary description for Utilities"
+  },
   "api/MyApi.Models.Item.html": {
     "href": "api/MyApi.Models.Item.html",
     "title": "Class Item | mysite",
@@ -28,6 +38,11 @@
     "href": "api/MyApi.Models.html",
     "title": "Namespace MyApi.Models | mysite",
     "keywords": "Namespace MyApi.Models Classes Item"
+  },
+  "docfx.html": {
+    "href": "docfx.html",
+    "title": "初始化 | mysite",
+    "keywords": "dotnet tool update -g docfx 初始化 docfx init 產生 docfx.json docfx metadata 根據 docfx.json 產生靜態網站 docfx build 本地伺服器來即時預覽生成的文檔，預設端口為 8080。 # 本地伺服器來即時預覽生成的文檔，預設端口為 8080。 docfx docfx.json --serve --hostname 0.0.0.0 # 透過指定端口來啟動 DocFX 服務 docfx serve --port 8080 --hostname 0.0.0.0 # 啟用即時監控模式，會自動重新載入變更 docfx serve --watch --hostname 0.0.0.0 # 禁用快取 docfx serve --no-cache --hostname 0.0.0.0 # 指定來源目錄 docfx serve --source _site --hostname 0.0.0.0 參考 官方DOC [GitHub]https://github.com/dotnet/docfx"
   },
   "docs/getting-started.html": {
     "href": "docs/getting-started.html",

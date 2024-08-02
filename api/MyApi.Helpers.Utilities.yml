@@ -1,0 +1,950 @@
+### YamlMime:ManagedReference
+items:
+- uid: MyApi.Helpers.Utilities
+  commentId: T:MyApi.Helpers.Utilities
+  id: Utilities
+  parent: MyApi.Helpers
+  children:
+  - MyApi.Helpers.Utilities.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  - MyApi.Helpers.Utilities.ConvertUTF8toBIG5(System.String)
+  - MyApi.Helpers.Utilities.GetClientIpAddress
+  - MyApi.Helpers.Utilities.GetDayHtmlSelect(System.String)
+  - MyApi.Helpers.Utilities.GetTimeHtmlSelect(System.String)
+  - MyApi.Helpers.Utilities.IsValidEmail(System.String)
+  - MyApi.Helpers.Utilities.TimeConvertString(System.Int32)
+  - MyApi.Helpers.Utilities.TimeFormat(System.String)
+  - MyApi.Helpers.Utilities.TransNumToChinese(System.Int32)
+  - MyApi.Helpers.Utilities.TransNumWeekToString(System.Int32)
+  - MyApi.Helpers.Utilities.TransString2Date(System.String)
+  - MyApi.Helpers.Utilities.TransString2Date_all(System.String)
+  - MyApi.Helpers.Utilities.TransTimeString2Double(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Utilities
+  nameWithType: Utilities
+  fullName: MyApi.Helpers.Utilities
+  type: Class
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: Utilities
+    path: Helpers/Utilities.cs
+    startLine: 16
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: Summary description for Utilities
+  example: []
+  syntax:
+    content: public class Utilities
+    content.vb: Public Class Utilities
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: MyApi.Helpers.Utilities.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  commentId: M:MyApi.Helpers.Utilities.#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  id: '#ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)'
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: Utilities(IHttpContextAccessor)
+  nameWithType: Utilities.Utilities(IHttpContextAccessor)
+  fullName: MyApi.Helpers.Utilities.Utilities(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  type: Constructor
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: .ctor
+    path: Helpers/Utilities.cs
+    startLine: 20
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  syntax:
+    content: public Utilities(IHttpContextAccessor httpContextAccessor)
+    parameters:
+    - id: httpContextAccessor
+      type: Microsoft.AspNetCore.Http.IHttpContextAccessor
+    content.vb: Public Sub New(httpContextAccessor As IHttpContextAccessor)
+  overload: MyApi.Helpers.Utilities.#ctor*
+  nameWithType.vb: Utilities.New(IHttpContextAccessor)
+  fullName.vb: MyApi.Helpers.Utilities.New(Microsoft.AspNetCore.Http.IHttpContextAccessor)
+  name.vb: New(IHttpContextAccessor)
+- uid: MyApi.Helpers.Utilities.ConvertUTF8toBIG5(System.String)
+  commentId: M:MyApi.Helpers.Utilities.ConvertUTF8toBIG5(System.String)
+  id: ConvertUTF8toBIG5(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: ConvertUTF8toBIG5(string)
+  nameWithType: Utilities.ConvertUTF8toBIG5(string)
+  fullName: MyApi.Helpers.Utilities.ConvertUTF8toBIG5(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: ConvertUTF8toBIG5
+    path: Helpers/Utilities.cs
+    startLine: 25
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  syntax:
+    content: public static string ConvertUTF8toBIG5(string strInput)
+    parameters:
+    - id: strInput
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function ConvertUTF8toBIG5(strInput As String) As String
+  overload: MyApi.Helpers.Utilities.ConvertUTF8toBIG5*
+  nameWithType.vb: Utilities.ConvertUTF8toBIG5(String)
+  fullName.vb: MyApi.Helpers.Utilities.ConvertUTF8toBIG5(String)
+  name.vb: ConvertUTF8toBIG5(String)
+- uid: MyApi.Helpers.Utilities.GetDayHtmlSelect(System.String)
+  commentId: M:MyApi.Helpers.Utilities.GetDayHtmlSelect(System.String)
+  id: GetDayHtmlSelect(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: GetDayHtmlSelect(string)
+  nameWithType: Utilities.GetDayHtmlSelect(string)
+  fullName: MyApi.Helpers.Utilities.GetDayHtmlSelect(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: GetDayHtmlSelect
+    path: Helpers/Utilities.cs
+    startLine: 37
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk日期格式轉換(20081008--&gt;2008年10月8日)
+  example: []
+  syntax:
+    content: public static string GetDayHtmlSelect(string inputstring)
+    parameters:
+    - id: inputstring
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetDayHtmlSelect(inputstring As String) As String
+  overload: MyApi.Helpers.Utilities.GetDayHtmlSelect*
+  nameWithType.vb: Utilities.GetDayHtmlSelect(String)
+  fullName.vb: MyApi.Helpers.Utilities.GetDayHtmlSelect(String)
+  name.vb: GetDayHtmlSelect(String)
+- uid: MyApi.Helpers.Utilities.TransString2Date_all(System.String)
+  commentId: M:MyApi.Helpers.Utilities.TransString2Date_all(System.String)
+  id: TransString2Date_all(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TransString2Date_all(string)
+  nameWithType: Utilities.TransString2Date_all(string)
+  fullName: MyApi.Helpers.Utilities.TransString2Date_all(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TransString2Date_all
+    path: Helpers/Utilities.cs
+    startLine: 56
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk日期格式轉換(20170118--&gt;2017/01/18)
+  example: []
+  syntax:
+    content: public static string TransString2Date_all(string inputstring)
+    parameters:
+    - id: inputstring
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function TransString2Date_all(inputstring As String) As String
+  overload: MyApi.Helpers.Utilities.TransString2Date_all*
+  nameWithType.vb: Utilities.TransString2Date_all(String)
+  fullName.vb: MyApi.Helpers.Utilities.TransString2Date_all(String)
+  name.vb: TransString2Date_all(String)
+- uid: MyApi.Helpers.Utilities.TransString2Date(System.String)
+  commentId: M:MyApi.Helpers.Utilities.TransString2Date(System.String)
+  id: TransString2Date(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TransString2Date(string)
+  nameWithType: Utilities.TransString2Date(string)
+  fullName: MyApi.Helpers.Utilities.TransString2Date(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TransString2Date
+    path: Helpers/Utilities.cs
+    startLine: 73
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk日期格式轉換(20170118--&gt;2017/01/18)
+  example: []
+  syntax:
+    content: public static string TransString2Date(string inputstring)
+    parameters:
+    - id: inputstring
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function TransString2Date(inputstring As String) As String
+  overload: MyApi.Helpers.Utilities.TransString2Date*
+  nameWithType.vb: Utilities.TransString2Date(String)
+  fullName.vb: MyApi.Helpers.Utilities.TransString2Date(String)
+  name.vb: TransString2Date(String)
+- uid: MyApi.Helpers.Utilities.GetTimeHtmlSelect(System.String)
+  commentId: M:MyApi.Helpers.Utilities.GetTimeHtmlSelect(System.String)
+  id: GetTimeHtmlSelect(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: GetTimeHtmlSelect(string)
+  nameWithType: Utilities.GetTimeHtmlSelect(string)
+  fullName: MyApi.Helpers.Utilities.GetTimeHtmlSelect(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: GetTimeHtmlSelect
+    path: Helpers/Utilities.cs
+    startLine: 92
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk時間格式轉換(1230--&gt;12點30分)
+  example: []
+  syntax:
+    content: public static string GetTimeHtmlSelect(string inputstring)
+    parameters:
+    - id: inputstring
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetTimeHtmlSelect(inputstring As String) As String
+  overload: MyApi.Helpers.Utilities.GetTimeHtmlSelect*
+  nameWithType.vb: Utilities.GetTimeHtmlSelect(String)
+  fullName.vb: MyApi.Helpers.Utilities.GetTimeHtmlSelect(String)
+  name.vb: GetTimeHtmlSelect(String)
+- uid: MyApi.Helpers.Utilities.TransTimeString2Double(System.String)
+  commentId: M:MyApi.Helpers.Utilities.TransTimeString2Double(System.String)
+  id: TransTimeString2Double(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TransTimeString2Double(string)
+  nameWithType: Utilities.TransTimeString2Double(string)
+  fullName: MyApi.Helpers.Utilities.TransTimeString2Double(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TransTimeString2Double
+    path: Helpers/Utilities.cs
+    startLine: 120
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk將時間字串--&gt;數字型態(0830--&gt;8.5)
+  example: []
+  syntax:
+    content: public static double TransTimeString2Double(string timestring)
+    parameters:
+    - id: timestring
+      type: System.String
+      description: ''
+    return:
+      type: System.Double
+      description: ''
+    content.vb: Public Shared Function TransTimeString2Double(timestring As String) As Double
+  overload: MyApi.Helpers.Utilities.TransTimeString2Double*
+  nameWithType.vb: Utilities.TransTimeString2Double(String)
+  fullName.vb: MyApi.Helpers.Utilities.TransTimeString2Double(String)
+  name.vb: TransTimeString2Double(String)
+- uid: MyApi.Helpers.Utilities.IsValidEmail(System.String)
+  commentId: M:MyApi.Helpers.Utilities.IsValidEmail(System.String)
+  id: IsValidEmail(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: IsValidEmail(string)
+  nameWithType: Utilities.IsValidEmail(string)
+  fullName: MyApi.Helpers.Utilities.IsValidEmail(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: IsValidEmail
+    path: Helpers/Utilities.cs
+    startLine: 139
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  syntax:
+    content: public static bool IsValidEmail(string strIn)
+    parameters:
+    - id: strIn
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function IsValidEmail(strIn As String) As Boolean
+  overload: MyApi.Helpers.Utilities.IsValidEmail*
+  nameWithType.vb: Utilities.IsValidEmail(String)
+  fullName.vb: MyApi.Helpers.Utilities.IsValidEmail(String)
+  name.vb: IsValidEmail(String)
+- uid: MyApi.Helpers.Utilities.TransNumWeekToString(System.Int32)
+  commentId: M:MyApi.Helpers.Utilities.TransNumWeekToString(System.Int32)
+  id: TransNumWeekToString(System.Int32)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TransNumWeekToString(int)
+  nameWithType: Utilities.TransNumWeekToString(int)
+  fullName: MyApi.Helpers.Utilities.TransNumWeekToString(int)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TransNumWeekToString
+    path: Helpers/Utilities.cs
+    startLine: 153
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: 將數字週數轉中文
+  example: []
+  syntax:
+    content: public static string TransNumWeekToString(int week)
+    parameters:
+    - id: week
+      type: System.Int32
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function TransNumWeekToString(week As Integer) As String
+  overload: MyApi.Helpers.Utilities.TransNumWeekToString*
+  nameWithType.vb: Utilities.TransNumWeekToString(Integer)
+  fullName.vb: MyApi.Helpers.Utilities.TransNumWeekToString(Integer)
+  name.vb: TransNumWeekToString(Integer)
+- uid: MyApi.Helpers.Utilities.TransNumToChinese(System.Int32)
+  commentId: M:MyApi.Helpers.Utilities.TransNumToChinese(System.Int32)
+  id: TransNumToChinese(System.Int32)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TransNumToChinese(int)
+  nameWithType: Utilities.TransNumToChinese(int)
+  fullName: MyApi.Helpers.Utilities.TransNumToChinese(int)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TransNumToChinese
+    path: Helpers/Utilities.cs
+    startLine: 188
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: 將數字週數轉中文
+  example: []
+  syntax:
+    content: public static string TransNumToChinese(int num)
+    parameters:
+    - id: num
+      type: System.Int32
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function TransNumToChinese(num As Integer) As String
+  overload: MyApi.Helpers.Utilities.TransNumToChinese*
+  nameWithType.vb: Utilities.TransNumToChinese(Integer)
+  fullName.vb: MyApi.Helpers.Utilities.TransNumToChinese(Integer)
+  name.vb: TransNumToChinese(Integer)
+- uid: MyApi.Helpers.Utilities.TimeConvertString(System.Int32)
+  commentId: M:MyApi.Helpers.Utilities.TimeConvertString(System.Int32)
+  id: TimeConvertString(System.Int32)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TimeConvertString(int)
+  nameWithType: Utilities.TimeConvertString(int)
+  fullName: MyApi.Helpers.Utilities.TimeConvertString(int)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TimeConvertString
+    path: Helpers/Utilities.cs
+    startLine: 237
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  syntax:
+    content: public static string TimeConvertString(int time)
+    parameters:
+    - id: time
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function TimeConvertString(time As Integer) As String
+  overload: MyApi.Helpers.Utilities.TimeConvertString*
+  nameWithType.vb: Utilities.TimeConvertString(Integer)
+  fullName.vb: MyApi.Helpers.Utilities.TimeConvertString(Integer)
+  name.vb: TimeConvertString(Integer)
+- uid: MyApi.Helpers.Utilities.TimeFormat(System.String)
+  commentId: M:MyApi.Helpers.Utilities.TimeFormat(System.String)
+  id: TimeFormat(System.String)
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: TimeFormat(string)
+  nameWithType: Utilities.TimeFormat(string)
+  fullName: MyApi.Helpers.Utilities.TimeFormat(string)
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: TimeFormat
+    path: Helpers/Utilities.cs
+    startLine: 249
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: bmk將時間字串--&gt;數字型態(830--&gt;0830)
+  example: []
+  syntax:
+    content: public static string TimeFormat(string time)
+    parameters:
+    - id: time
+      type: System.String
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function TimeFormat(time As String) As String
+  overload: MyApi.Helpers.Utilities.TimeFormat*
+  nameWithType.vb: Utilities.TimeFormat(String)
+  fullName.vb: MyApi.Helpers.Utilities.TimeFormat(String)
+  name.vb: TimeFormat(String)
+- uid: MyApi.Helpers.Utilities.GetClientIpAddress
+  commentId: M:MyApi.Helpers.Utilities.GetClientIpAddress
+  id: GetClientIpAddress
+  parent: MyApi.Helpers.Utilities
+  langs:
+  - csharp
+  - vb
+  name: GetClientIpAddress()
+  nameWithType: Utilities.GetClientIpAddress()
+  fullName: MyApi.Helpers.Utilities.GetClientIpAddress()
+  type: Method
+  source:
+    remote:
+      path: Helpers/Utilities.cs
+      branch: main
+      repo: git@github.com:HAOHAODer/.NetCore8_DocFX.git
+    id: GetClientIpAddress
+    path: Helpers/Utilities.cs
+    startLine: 266
+  assemblies:
+  - MyApi
+  namespace: MyApi.Helpers
+  summary: 取得用戶端 IP
+  example: []
+  syntax:
+    content: public string GetClientIpAddress()
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetClientIpAddress() As String
+  overload: MyApi.Helpers.Utilities.GetClientIpAddress*
+references:
+- uid: MyApi.Helpers
+  commentId: N:MyApi.Helpers
+  href: MyApi.html
+  name: MyApi.Helpers
+  nameWithType: MyApi.Helpers
+  fullName: MyApi.Helpers
+  spec.csharp:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Helpers
+    name: Helpers
+    href: MyApi.Helpers.html
+  spec.vb:
+  - uid: MyApi
+    name: MyApi
+    href: MyApi.html
+  - name: .
+  - uid: MyApi.Helpers
+    name: Helpers
+    href: MyApi.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: MyApi.Helpers.Utilities.#ctor*
+  commentId: Overload:MyApi.Helpers.Utilities.#ctor
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities__ctor_Microsoft_AspNetCore_Http_IHttpContextAccessor_
+  name: Utilities
+  nameWithType: Utilities.Utilities
+  fullName: MyApi.Helpers.Utilities.Utilities
+  nameWithType.vb: Utilities.New
+  fullName.vb: MyApi.Helpers.Utilities.New
+  name.vb: New
+- uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
+  commentId: T:Microsoft.AspNetCore.Http.IHttpContextAccessor
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http.ihttpcontextaccessor
+  name: IHttpContextAccessor
+  nameWithType: IHttpContextAccessor
+  fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.AspNetCore
+    name: AspNetCore
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore
+  - name: .
+  - uid: Microsoft.AspNetCore.Http
+    name: Http
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.http
+- uid: MyApi.Helpers.Utilities.ConvertUTF8toBIG5*
+  commentId: Overload:MyApi.Helpers.Utilities.ConvertUTF8toBIG5
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_ConvertUTF8toBIG5_System_String_
+  name: ConvertUTF8toBIG5
+  nameWithType: Utilities.ConvertUTF8toBIG5
+  fullName: MyApi.Helpers.Utilities.ConvertUTF8toBIG5
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: MyApi.Helpers.Utilities.GetDayHtmlSelect*
+  commentId: Overload:MyApi.Helpers.Utilities.GetDayHtmlSelect
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_GetDayHtmlSelect_System_String_
+  name: GetDayHtmlSelect
+  nameWithType: Utilities.GetDayHtmlSelect
+  fullName: MyApi.Helpers.Utilities.GetDayHtmlSelect
+- uid: MyApi.Helpers.Utilities.TransString2Date_all*
+  commentId: Overload:MyApi.Helpers.Utilities.TransString2Date_all
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TransString2Date_all_System_String_
+  name: TransString2Date_all
+  nameWithType: Utilities.TransString2Date_all
+  fullName: MyApi.Helpers.Utilities.TransString2Date_all
+- uid: MyApi.Helpers.Utilities.TransString2Date*
+  commentId: Overload:MyApi.Helpers.Utilities.TransString2Date
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TransString2Date_System_String_
+  name: TransString2Date
+  nameWithType: Utilities.TransString2Date
+  fullName: MyApi.Helpers.Utilities.TransString2Date
+- uid: MyApi.Helpers.Utilities.GetTimeHtmlSelect*
+  commentId: Overload:MyApi.Helpers.Utilities.GetTimeHtmlSelect
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_GetTimeHtmlSelect_System_String_
+  name: GetTimeHtmlSelect
+  nameWithType: Utilities.GetTimeHtmlSelect
+  fullName: MyApi.Helpers.Utilities.GetTimeHtmlSelect
+- uid: MyApi.Helpers.Utilities.TransTimeString2Double*
+  commentId: Overload:MyApi.Helpers.Utilities.TransTimeString2Double
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TransTimeString2Double_System_String_
+  name: TransTimeString2Double
+  nameWithType: Utilities.TransTimeString2Double
+  fullName: MyApi.Helpers.Utilities.TransTimeString2Double
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: MyApi.Helpers.Utilities.IsValidEmail*
+  commentId: Overload:MyApi.Helpers.Utilities.IsValidEmail
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_IsValidEmail_System_String_
+  name: IsValidEmail
+  nameWithType: Utilities.IsValidEmail
+  fullName: MyApi.Helpers.Utilities.IsValidEmail
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: MyApi.Helpers.Utilities.TransNumWeekToString*
+  commentId: Overload:MyApi.Helpers.Utilities.TransNumWeekToString
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TransNumWeekToString_System_Int32_
+  name: TransNumWeekToString
+  nameWithType: Utilities.TransNumWeekToString
+  fullName: MyApi.Helpers.Utilities.TransNumWeekToString
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: MyApi.Helpers.Utilities.TransNumToChinese*
+  commentId: Overload:MyApi.Helpers.Utilities.TransNumToChinese
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TransNumToChinese_System_Int32_
+  name: TransNumToChinese
+  nameWithType: Utilities.TransNumToChinese
+  fullName: MyApi.Helpers.Utilities.TransNumToChinese
+- uid: MyApi.Helpers.Utilities.TimeConvertString*
+  commentId: Overload:MyApi.Helpers.Utilities.TimeConvertString
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TimeConvertString_System_Int32_
+  name: TimeConvertString
+  nameWithType: Utilities.TimeConvertString
+  fullName: MyApi.Helpers.Utilities.TimeConvertString
+- uid: MyApi.Helpers.Utilities.TimeFormat*
+  commentId: Overload:MyApi.Helpers.Utilities.TimeFormat
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_TimeFormat_System_String_
+  name: TimeFormat
+  nameWithType: Utilities.TimeFormat
+  fullName: MyApi.Helpers.Utilities.TimeFormat
+- uid: MyApi.Helpers.Utilities.GetClientIpAddress*
+  commentId: Overload:MyApi.Helpers.Utilities.GetClientIpAddress
+  href: MyApi.Helpers.Utilities.html#MyApi_Helpers_Utilities_GetClientIpAddress
+  name: GetClientIpAddress
+  nameWithType: Utilities.GetClientIpAddress
+  fullName: MyApi.Helpers.Utilities.GetClientIpAddress

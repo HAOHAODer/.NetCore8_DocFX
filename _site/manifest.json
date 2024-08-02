@@ -1,5 +1,5 @@
 {
-  "source_base_path": "/app",
+  "source_base_path": "E:/project/side_project/Github/note/docker/MyApi",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -52,6 +52,26 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MyApi.Helpers.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApi.Helpers.Utilities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MyApi.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MyApi.Helpers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MyApi.Models.Item.yml",
       "output": {
         ".html": {
@@ -74,11 +94,21 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docfx.md",
+      "output": {
+        ".html": {
+          "relative_path": "docfx.html"
         }
       },
       "version": ""
@@ -107,11 +137,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -130,11 +160,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
